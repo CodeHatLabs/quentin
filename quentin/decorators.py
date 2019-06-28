@@ -1,4 +1,4 @@
-from ebpy.async import ebsqs_worker, ebsqs_cron
+from ebpy.mq import ebsqs_worker, ebsqs_cron
 
 from django.http import HttpResponse, Http404
 

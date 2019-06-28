@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='quentin',
-    version=0.0,
+    version=0.1,
     author='Code Hat Labs, LLC',
     author_email='dev@codehatlabs.com',
     url='https://github.com/CodeHatLabs/quentin',
@@ -14,7 +14,7 @@ setup(
     keywords='django',
     zip_safe=False,
     install_requires=[
-        'ebpy>=0.0'
+        'ebpy>=0.1'
     ],
     test_suite='',
     include_package_data=True,
